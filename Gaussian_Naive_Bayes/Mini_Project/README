@@ -1,0 +1,8 @@
+Create and train a Naive Bayes classifier in naive_bayes/nb_author_id.py. 
+Use it to make predictions for the test set. What is the accuracy?
+
+
+- Remember there's a accuracy_score function in the sklearn library (from sklearn.metrics import accuracy_score)
+
+- since sklearn.cross_validation deprecated in version 0.20, changed cross_validation to
+from sklearn.model_selection import train_test_split
