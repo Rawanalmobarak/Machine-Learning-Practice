@@ -1,0 +1,10 @@
+GaussianNB Deployment on Terrain Data
+
+
+Create a decision boundary using Naïve Bayes Classifiers
+
+Naïve Bayes Classifiers: in ML, naïve Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong independence assumptions between the features.
+
+Python Library used: sklearn 
+
+Scikit-learn: ML library for the py, It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
