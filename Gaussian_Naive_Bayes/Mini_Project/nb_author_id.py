@@ -34,9 +34,9 @@ clf= GaussianNB()
 clf.fit(features_train, labels_train)
 print "training time:", round(time()-t0, 3), "s"
 
-t0 = time()
+t1 = time()
 predict = clf.predict(features_test)
-print "Prediction time:", round(time()-t0, 3), "s"
+print "Prediction time:", round(time()-t1, 3), "s"
 
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(predict, labels_test)
